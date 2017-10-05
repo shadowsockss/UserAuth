@@ -4,7 +4,7 @@
 	<groupId>com.javen.ssm.master</groupId>
 	<artifactId>SSM-master</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>maven01 Maven Webapp</name>
+	<name>SSM-master Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	
 	<properties>  
@@ -176,13 +176,14 @@
 	</dependencies>
 	
 	<build>
-		<finalName>maven02</finalName>
+		<finalName>SSM-master</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.eclipse.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>9.2.8.v20150217</version>
 				<configuration>
+					<scanIntervalSeconds>0</scanIntervalSeconds> <!-- 大于0开启自动扫描热部署,单位为秒 -->
 					<httpConnector>
 						<port>80</port>
 					</httpConnector>

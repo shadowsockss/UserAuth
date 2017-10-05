@@ -282,4 +282,14 @@ Caused by: java.io.FileNotFoundException: Could not open ServletContext resource
   [INFO] [2017-09-19 20:10:53][org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping]Mapped "{[/user/showUser],methods=[GET],params=[],headers=[],consumes=[],produces=[],custom=[]}" onto public java.lang.String com.javen.controller.UserController.toIndex(javax.servlet.http.HttpServletRequest,org.springframework.ui.Model)
   [INFO] [2017-09-19 20:10:53][org.springframework.web.servlet.handler.SimpleUrlHandlerMapping]Mapped URL path [/resources] onto handler 'org.springframework.web.servlet.resource.ResourceHttpRequestHandler#0'
   [INFO] [2017-09-19 20:10:53][org.springframework.web.servlet.DispatcherServlet]FrameworkServlet 'SpringMVC': initialization completed in 626 ms
+  [INFO] [2017-10-05 23:54:19][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2017-10-05 23:54:20][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@1445d28: startup date [Thu Oct 05 23:54:20 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-05 23:54:20][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2017-10-05 23:54:20][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-10-05 23:54:23][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@1445d28: startup date [Thu Oct 05 23:54:20 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-06 00:52:36][org.springframework.beans.factory.xml.XmlBeanDefinitionReader]Loading XML bean definitions from class path resource [spring-mybatis.xml]
+  [INFO] [2017-10-06 00:52:36][org.springframework.context.support.GenericApplicationContext]Refreshing org.springframework.context.support.GenericApplicationContext@13596e0: startup date [Fri Oct 06 00:52:36 CST 2017]; root of context hierarchy
+  [INFO] [2017-10-06 00:52:36][org.springframework.beans.factory.config.PropertyPlaceholderConfigurer]Loading properties file from class path resource [jdbc.properties]
+  [INFO] [2017-10-06 00:52:36][org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor]JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+  [INFO] [2017-10-06 00:52:39][org.springframework.context.support.GenericApplicationContext]Closing org.springframework.context.support.GenericApplicationContext@13596e0: startup date [Fri Oct 06 00:52:36 CST 2017]; root of context hierarchy
   
