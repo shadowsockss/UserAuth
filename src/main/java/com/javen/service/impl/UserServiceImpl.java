@@ -6,19 +6,25 @@ import javax.annotation.Resource;
 
 import org.springframework.stereotype.Service;  
 
-import com.javen.dao.IUserDao;
+import com.javen.dao.UserDao;
 import com.javen.model.User;
-import com.javen.service.IUserService;
+import com.javen.service.UserService;
   
   
 @Service("userService")  
-public class UserServiceImpl implements IUserService {  
+public class UserServiceImpl implements UserService {  
     @Resource  
-    private IUserDao userDao;  
+    private UserDao userDao;  
     
     public User getUserById(int userId) {  
-        // TODO Auto-generated method stub  
+        
         return this.userDao.selectByPrimaryKey(userId);  
-    }  
+    }
+
+	@Override
+	public User getUserByUserName(String userName) {
+		
+		return this.userDao.selectByUserName(userName);
+	}  
   
 }  

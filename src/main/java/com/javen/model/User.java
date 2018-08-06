@@ -9,6 +9,7 @@ public class User {
 
     private Integer age;
 
+    private String email;
     public Integer getId() {
         return id;
     }
@@ -45,6 +46,14 @@ public class User {
 	public String toString() {
 		return "User [id=" + id + ", userName=" + userName + ", password="
 				+ password + ", age=" + age + "]";
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email == null ? null : email.trim();
 	}
     
     
