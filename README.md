@@ -1,2 +1,1 @@
-# SSM
- SSM框架——详细整合教程（Spring+SpringMVC+MyBatis）
+统一的权限认证系统，已实现注册、登录、登出等功能。
